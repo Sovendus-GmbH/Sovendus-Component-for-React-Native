@@ -1,1 +1,5 @@
-export { default as SovendusBanner } from './SovendusBanner';
+export {
+  SovendusBanner,
+  SovendusCustomerData,
+  SovendusBannerProps,
+} from "./SovendusBanner";

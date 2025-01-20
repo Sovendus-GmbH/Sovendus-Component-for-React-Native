@@ -1,19 +1,19 @@
 import React, { JSX } from "react";
-interface SovendusCustomerData {
-    salutation?: string | undefined;
+export interface SovendusCustomerData {
+    salutation?: "Mr." | "Mrs." | "" | undefined;
     firstName?: string | undefined;
     lastName?: string | undefined;
     email?: string | undefined;
     phone?: string | undefined;
     yearOfBirth?: number | undefined;
     dateOfBirth?: string | undefined;
-    street?: string | undefined;
+    streetName?: string | undefined;
     streetNumber?: string | undefined;
     zipcode?: string | undefined;
-    city?: string | undefined;
+    cityName?: string | undefined;
     country?: string | undefined;
 }
-interface SovendusBannerProps {
+export interface SovendusBannerProps {
     trafficSourceNumber: number;
     trafficMediumNumber: number;
     orderUnixTime?: number | undefined;
@@ -27,5 +27,4 @@ interface SovendusBannerProps {
     padding?: number;
     backgroundColor?: string;
 }
-declare const SovendusBanner: React.FC<SovendusBannerProps>;
-export default SovendusBanner;
+export declare const SovendusBanner: React.FC<SovendusBannerProps>;

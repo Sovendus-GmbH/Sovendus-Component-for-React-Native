@@ -1,6 +1,6 @@
 {
   "name": "sovendus-react-native",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Sovendus Component for React Native",
   "main": "src/index.ts",
   "scripts": {
@@ -21,6 +21,7 @@
   "author": "Your Name",
   "license": "GPL-3.0-only",
   "dependencies": {
+    "install": "^0.13.0",
     "react": ">=16.8.0",
     "react-native": ">=0.60.0",
     "react-native-webview": "^11.0.0"
