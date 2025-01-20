@@ -1,0 +1,44 @@
+{
+  "name": "sovendus-react-native",
+  "version": "1.0.1",
+  "description": "Sovendus Component for React Native",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "publish": "yarn build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sovendus-GmbH/Sovendus-Component-for-React-Native.git"
+  },
+  "keywords": [
+    "react-native",
+    "sovendus",
+    "banner",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "react-native-webview": "^11.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^7.0.0",
+    "@types/react": "^19.0.7",
+    "@types/react-native": "^0.72.8",
+    "babel-jest": "^27.0.0",
+    "jest": "^27.0.0",
+    "typescript": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ]
+}
